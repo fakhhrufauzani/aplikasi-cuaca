@@ -1,7 +1,7 @@
 import tkinter as tk
 import requests
 
-API_KEY = "ae3724b93ab3441dcaa0f97532349f94"
+API_KEY = "***"
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
 
 def get_weather():
@@ -52,3 +52,4 @@ result_label = tk.Label(root, text="", font=("Arial", 12), justify="left")
 result_label.pack(pady=10)
 
 root.mainloop()
+
